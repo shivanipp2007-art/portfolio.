@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shivani PP – Digital Portfolio</title>
+<style>
+:root{--bg:#f2f7fb;--card:#fff;--ink:#0b2042;--mute:#5b6b82;--acc:#1f6fc5;--acc2:#1fb5c9;--line:#dce6f0;--hero:#0b2042;--herotx:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1424;--card:#12213a;--ink:#e8eef8;--mute:#9db0cb;--acc:#5aa5f0;--acc2:#3fd0e2;--line:#1f3354;--hero:#071021}}
+:root[data-theme="dark"]{--bg:#0a1424;--card:#12213a;--ink:#e8eef8;--mute:#9db0cb;--acc:#5aa5f0;--acc2:#3fd0e2;--line:#1f3354;--hero:#071021}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--hero);display:flex;gap:4px;padding:10px 16px;overflow-x:auto;white-space:nowrap}
+nav a{color:#c9d8ee;text-decoration:none;font-size:.85rem;padding:6px 12px;border-radius:99px}
+nav a:hover{background:rgba(255,255,255,.12);color:#fff}
+.hero{background:var(--hero);color:var(--herotx);padding:56px 20px 64px}
+.wrap{max-width:1000px;margin:0 auto}
+.hero .wrap{display:flex;gap:40px;align-items:center;flex-wrap:wrap}
+.av{width:150px;height:150px;border-radius:50%;background:linear-gradient(135deg,var(--acc),var(--acc2));display:grid;place-items:center;font-size:3.2rem;font-weight:700;color:#fff;flex:none}
+.hero h1{margin:0;font-size:clamp(2rem,6vw,3.2rem);line-height:1.1}
+.hero .role{color:#3fd0e2;font-size:1.25rem;font-weight:600;margin:8px 0}
+.hero p{margin:4px 0;color:#b7c9e4}
+.pill{display:inline-block;margin-top:14px;background:#1f6fc5;color:#fff;padding:8px 18px;border-radius:10px;font-weight:600;font-size:.9rem}
+section{padding:48px 20px 8px}
+h2{font-size:1.7rem;margin:0 0 4px}
+h2 span{color:var(--acc);margin-right:10px}
+.sub{color:var(--mute);margin:0 0 20px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 10px rgba(10,30,60,.05)}
+.card h3{margin:0 0 8px;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--acc)}
+.card p{margin:6px 0}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tag{background:color-mix(in srgb,var(--acc) 14%,transparent);color:var(--acc);padding:4px 12px;border-radius:99px;font-size:.85rem;font-weight:500}
+.wide{grid-column:1/-1}
+.steps{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.steps b{background:var(--card);border:1px solid var(--line);padding:6px 12px;border-radius:10px;font-weight:500;font-size:.9rem}
+.tl{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.tl .card{border-top:4px solid var(--acc2)}
+.tl small{color:var(--acc);font-weight:700;letter-spacing:.1em}
+a.btn{color:var(--acc);font-weight:600;word-break:break-all}
+blockquote{margin:40px 0 0;text-align:center;font-size:1.2rem;font-style:italic;color:var(--mute)}
+footer{text-align:center;color:var(--mute);padding:40px 20px;font-size:.85rem}
+</style>
+</head>
+<body>
+<nav>
+<a href="#about">About</a><a href="#goal">Aspiration</a><a href="#academic">Academic</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#activities">Activities</a><a href="#roadmap">Roadmap</a><a href="#contact">Contact</a>
+</nav>
+
+<header class="hero"><div class="wrap">
+<div class="av" aria-hidden="true">SP</div>
+<div>
+<h1>Shivani PP</h1>
+<div class="role">Aspiring Semiconductor Validation Engineer</div>
+<p>B.Tech Electronics &amp; Communication Engineering</p>
+<p>Lovely Professional University · Expected graduation 2030</p>
+<span class="pill">Roll No. 70 &nbsp;|&nbsp; Reg. No. 12622059</span>
+</div></div></header>
+
+<section id="about"><div class="wrap">
+<h2><span>01</span>About Me</h2><p class="sub">A short introduction and the direction I want to grow in.</p>
+<div class="grid">
+<div class="card"><h3>Profile</h3><p>I am a first-year B.Tech Electronics and Communication Engineering student at Lovely Professional University. I am building my foundation in electronics and programming, and I enjoy learning by doing.</p></div>
+<div class="card"><h3>Career Statement</h3><p>I aim to build a strong base in electronics and programming, gain hands-on project experience and grow through competitions and teamwork.</p></div>
+<div class="card"><h3>Key Strengths</h3><div class="tags"><span class="tag">Teamwork</span><span class="tag">Problem-solving</span><span class="tag">Quick learner</span></div></div>
+</div></div></section>
+
+<section id="goal"><div class="wrap">
+<h2><span>02</span>Career Aspiration</h2><p class="sub">Where I am headed.</p>
+<div class="grid">
+<div class="card"><h3>Career Goal</h3><p><b>Semiconductor Engineer</b></p><p>Long-term target: Semiconductor validation engineer</p></div>
+<div class="card"><h3>Technical Areas to Develop</h3><div class="tags"><span class="tag">C programming</span><span class="tag">Embedded C</span><span class="tag">Microcontrollers</span><span class="tag">Digital electronics</span><span class="tag">Sensors</span><span class="tag">Communication protocols</span></div></div>
+<div class="card wide"><h3>My Development Approach</h3><div class="steps"><b>Learn fundamentals</b>→<b>Practise through small circuits</b>→<b>Build projects</b>→<b>Document results</b>→<b>Seek internships &amp; industry exposure</b></div></div>
+</div></div></section>
+
+<section id="academic"><div class="wrap">
+<h2><span>03</span>Academic Profile</h2><p class="sub">Education and relevant learning areas.</p>
+<div class="grid">
+<div class="card"><h3>Current Programme</h3><p><b>B.Tech – Electronics and Communication Engineering</b></p><p>Lovely Professional University, Punjab</p><p>Year 1, Semester 1 · Expected graduation: 2030</p></div>
+<div class="card"><h3>Previous Education</h3><p><b>Kerala Syllabus – 94%</b></p><p>Rajeev Gandhi Memorial HSS, Mokeri</p></div>
+<div class="card wide"><h3>Relevant Subjects</h3><div class="tags"><span class="tag">C Programming</span><span class="tag">Engineering Maths</span><span class="tag">Physics</span></div></div>
+</div></div></section>
+
+<section id="skills"><div class="wrap">
+<h2><span>04</span>Skills &amp; Learning</h2><p class="sub">A truthful snapshot of skills being developed.</p>
+<div class="grid">
+<div class="card"><h3>Programming</h3><div class="tags"><span class="tag">Python (beginner, learning)</span><span class="tag">C (to be developed)</span></div></div>
+<div class="card"><h3>Electronics</h3><div class="tags"><span class="tag">ESP32</span><span class="tag">LDR &amp; PIR sensors</span><span class="tag">PWM dimming</span><span class="tag">Circuit design basics</span></div></div>
+<div class="card"><h3>Professional</h3><div class="tags"><span class="tag">Teamwork (hackathons)</span><span class="tag">Problem-solving</span><span class="tag">Basic presentation skills</span></div></div>
+</div></div></section>
+
+<section id="projects"><div class="wrap">
+<h2><span>05</span>Projects</h2><p class="sub">Hands-on work so far.</p>
+<div class="grid">
+<div class="card wide"><h3>Project 1</h3><p style="font-size:1.2rem"><b>AIoT-Based Smart Street Light Network with Adaptive Energy Management</b></p></div>
+<div class="card"><h3>Overview</h3><p>Intelligent streetlights that automatically adjust brightness depending on daylight, movement of people or vehicles, and energy requirement.</p></div>
+<div class="card"><h3>Problem Addressed</h3><p>Conventional street lights stay at full brightness all night, even when nobody is using the road. This wastes electricity, increases costs, and adds to light pollution. This system saves energy while still keeping roads lit when needed.</p></div>
+<div class="card"><h3>My Role</h3><p>Worked in a team on circuit design, wiring the ESP32 with the LDR, PIR sensor and LED, programming the control logic, testing the brightness response, and preparing documentation.</p></div>
+<div class="card"><h3>Skills &amp; Outcome</h3><div class="tags"><span class="tag">ESP32</span><span class="tag">LDR/PIR interfacing</span><span class="tag">PWM</span><span class="tag">IoT (Wi-Fi)</span><span class="tag">Python &amp; ML basics</span><span class="tag">Testing</span></div><p><b>Outcome:</b> A working prototype that dims in low activity, turns on in darkness, and goes to full brightness when motion is detected, saving energy versus constant full-brightness lighting.</p></div>
+<div class="card wide"><h3>Project 2 · Sustainable Cities and Communities</h3><p><b>Aim:</b> To design and simulate a smart street light system that automatically adjusts LED brightness based on ambient light and motion, reducing unnecessary energy consumption.</p></div>
+</div></div></section>
+
+<section id="activities"><div class="wrap">
+<h2><span>06</span>Certifications &amp; Activities</h2><p class="sub">Competitions, certificates and what I plan to learn next.</p>
+<div class="grid">
+<div class="card"><h3>Certification</h3><p><b>Gear Up Hackathon</b></p><p>Issued by LPU · 11 September 2026</p></div>
+<div class="card"><h3>Future Learning</h3><div class="tags"><span class="tag">Python for data handling</span><span class="tag">ML for traffic/usage prediction</span><span class="tag">MATLAB</span><span class="tag">GitHub</span></div></div>
+<div class="card wide"><h3>Hackathon Participation · Gear Up Hackathon, LPU, Sept 2026</h3>
+<p><b>Project:</b> A solution for the healthcare crisis of overcrowded clinics, rushed doctor-patient consultations and rising misdiagnoses. An interactive, conversational AI avatar autonomously conducts patient pre-consultations using audio-guided prompts in regional dialects.</p>
+<p><b>Participation:</b> Team &nbsp;·&nbsp; <b>Skills demonstrated:</b> teamwork, problem-solving, working under time pressure</p></div>
+</div></div></section>
+
+<section id="roadmap"><div class="wrap">
+<h2><span>07</span>Development Roadmap</h2><p class="sub">A plan to grow throughout my B.Tech journey.</p>
+<div class="tl">
+<div class="card"><small>YEAR 1</small><h3 style="color:var(--ink);text-transform:none;letter-spacing:0;font-size:1.05rem">Build foundations</h3><p>Learn programming basics and electronics. Build small projects.</p></div>
+<div class="card"><small>YEAR 2</small><h3 style="color:var(--ink);text-transform:none;letter-spacing:0;font-size:1.05rem">Strengthen technical skills</h3><p>Develop digital electronics and microcontroller skills.</p></div>
+<div class="card"><small>YEAR 3</small><h3 style="color:var(--ink);text-transform:none;letter-spacing:0;font-size:1.05rem">Gain industry exposure</h3><p>Work on advanced projects and pursue internships.</p></div>
+<div class="card"><small>YEAR 4</small><h3 style="color:var(--ink);text-transform:none;letter-spacing:0;font-size:1.05rem">Prepare for a career</h3><p>Complete a capstone project and prepare for my career.</p></div>
+</div>
+<blockquote>“Learn steadily. Build practically. Document every step.”</blockquote>
+</div></section>
+
+<section id="contact"><div class="wrap">
+<h2><span>08</span>Networking</h2><p class="sub">Let’s connect.</p>
+<div class="card"><h3>LinkedIn</h3><p><a class="btn" href="https://www.linkedin.com/in/shivani-pp-45245b450" target="_blank" rel="noopener">linkedin.com/in/shivani-pp-45245b450</a></p></div>
+</div></section>
+
+<footer>Shivani PP · B.Tech ECE · Lovely Professional University · Thank you</footer>
+</body>
+</html>
